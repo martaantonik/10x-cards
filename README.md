@@ -1,94 +1,54 @@
-# 10x Astro Starter
+# 10x Cards
 
-A modern, opinionated starter template for building fast, accessible, and AI-friendly web applications.
+## Project Description
+
+10x Cards is a web application that allows users (primarily students) to quickly generate educational flashcards using artificial intelligence. The application streamlines the process of creating high-quality flashcards from input text. Users can also manually create, edit, and delete flashcards, and engage in study sessions that utilize a spaced repetition algorithm.
 
 ## Tech Stack
 
-- [Astro](https://astro.build/) v5.5.5 - Modern web framework for building fast, content-focused websites
-- [React](https://react.dev/) v19.0.0 - UI library for building interactive components
-- [TypeScript](https://www.typescriptlang.org/) v5 - Type-safe JavaScript
-- [Tailwind CSS](https://tailwindcss.com/) v4.0.17 - Utility-first CSS framework
+- **Frontend:** Astro 5, React 19, TypeScript 5, Tailwind CSS 4, Shadcn/ui
+- **Backend:** Supabase for a PostgreSQL database and backend-as-a-service functionalities
+- **AI Integration:** Openrouter.ai for communication with various models (OpenAI, Anthropic, etc.)
+- **CI/CD & Hosting:** GitHub Actions for CI/CD pipelines and DigitalOcean for hosting
 
-## Prerequisites
+## Getting Started Locally
 
-- Node.js v22.14.0 (as specified in `.nvmrc`)
-- npm (comes with Node.js)
-
-## Getting Started
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/przeprogramowani/10x-astro-starter.git
-cd 10x-astro-starter
-```
-
+1. Ensure you have the correct Node.js version as specified in the `.nvmrc` file (22.14.0):
+   ```bash
+   nvm use
+   ```
 2. Install dependencies:
-
-```bash
-npm install
-```
-
-3. Run the development server:
-
-```bash
-npm run dev
-```
-
-4. Build for production:
-
-```bash
-npm run build
-```
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
 ## Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-- `npm run lint:fix` - Fix ESLint issues
+- `npm run dev` – Starts the Astro development server.
+- `npm run build` – Builds the project for production.
+- `npm run preview` – Serves the built project for preview.
+- `npm run astro` – Runs Astro-related commands.
+- `npm run lint` – Runs ESLint to check for code issues.
+- `npm run lint:fix` – Automatically fixes ESLint issues.
+- `npm run format` – Formats the code using Prettier.
 
-## Project Structure
+## Project Scope
 
-```md
-.
-├── src/
-│   ├── layouts/    # Astro layouts
-│   ├── pages/      # Astro pages
-│   │   └── api/    # API endpoints
-│   ├── components/ # UI components (Astro & React)
-│   └── assets/     # Static assets
-├── public/         # Public assets
-```
+The project focuses on providing a streamlined experience for creating and studying flashcards. Key features include:
 
-## AI Development Support
+- **Authentication:** User registration, login, and logout.
+- **Flashcard Management:** Create flashcards both manually and through AI-powered generation from user-provided text.
+- **Review System:** Study sessions with flashcards using a spaced repetition algorithm, including marking flashcards as mastered or not.
+- **Editing & Deletion:** Users can edit or delete flashcards as needed.
 
-This project is configured with AI development tools to enhance the development experience, providing guidelines for:
+## Project Status
 
-- Project structure
-- Coding practices
-- Frontend development
-- Styling with Tailwind
-- Accessibility best practices
-- Astro and React guidelines
-
-### Cursor IDE
-
-The project includes AI rules in `.cursor/rules/` directory that help Cursor IDE understand the project structure and provide better code suggestions.
-
-### GitHub Copilot
-
-AI instructions for GitHub Copilot are available in `.github/copilot-instructions.md`
-
-### Windsurf
-
-The `.windsurfrules` file contains AI configuration for Windsurf.
-
-## Contributing
-
-Please follow the AI guidelines and coding practices defined in the AI configuration files when contributing to this project.
+This project is currently in the prototype phase, aimed at demonstrating the concept and gathering feedback for future improvements.
 
 ## License
 
-MIT
+This project is licensed under the MIT License.
