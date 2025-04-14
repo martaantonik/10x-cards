@@ -1,0 +1,42 @@
+<conversation_summary>
+<decisions>
+1. Użytkownik zdecydował, że aplikacja będzie służyć indywidualnym użytkownikom, głównie studentom.
+2. Użytkownik określił, że automatyczne generowanie fiszek przez AI ma rozwiązać problem szybkości tworzenia fiszek.
+3. Użytkownik ustalił, że z tekstu o długości 1000 znaków generowane będą 10 fiszek.
+4. Użytkownik zdecydował, że fiszki będą miały dwa pola: przód i tył.
+5. Użytkownik określił, że sesja nauki będzie polegała na przeglądaniu fiszek i oznaczaniu, które zostały opanowane.
+6. Użytkownik ustalił, że w MVP nie będą dostępne funkcje związane z organizowaniem fiszek w kolekcje ani eksportem do innych formatów.
+7. Użytkownik zdecydował, że aplikacja ma powstać w ciągu 2 tygodni jako projekt edukacyjny.
+8. Użytkownik określił, że akceptacja fiszek przez użytkownika będzie jedynym wskaźnikiem jakości.
+</decisions>
+
+<matched_recommendations>
+1. Opracuj prosty interfejs z trzema głównymi sekcjami: "Generuj", "Moje fiszki" i "Nauka".
+2. Zaprojektuj intuicyjny proces weryfikacji fiszek z wyraźnymi przyciskami "Akceptuj" i "Odrzuć".
+3. Stwórz prosty wizualny wskaźnik postępu podczas generowania fiszek przez AI.
+4. Opracuj jasne komunikaty błędów dla przypadków, gdy generowanie fiszek nie powiedzie się.
+5. Przygotuj dokumentację projektową API do integracji z systemem generowania AI.
+</matched_recommendations>
+
+<prd_planning_summary>
+Główne wymagania funkcjonalne produktu obejmują:
+- Możliwość logowania i rejestracji użytkowników.
+- Funkcjonalność dodawania tekstu, z którego generowane będą fiszki.
+- Automatyczne generowanie 10 fiszek z wprowadzonego tekstu.
+- Proces akceptacji lub odrzucenia fiszek przez użytkownika.
+- Sesja nauki, w której użytkownik przegląda fiszki i oznacza, które opanował.
+
+Kluczowe historie użytkownika i ścieżki korzystania:
+- Użytkownik loguje się do aplikacji, dodaje tekst, generuje fiszki, a następnie akceptuje lub odrzuca każdą z nich.
+- Użytkownik rozpoczyna sesję nauki, przeglądając fiszki i oznaczając te, które opanował.
+
+Ważne kryteria sukcesu i sposoby ich mierzenia:
+- Akceptacja fiszek przez użytkownika jako wskaźnik jakości.
+- Brak innych metryk do oceny skuteczności MVP.
+
+Nierozwiązane kwestie lub obszary wymagające dalszego wyjaśnienia:
+- Jakie konkretne pola będą zawierać fiszki (np. przód/tył)?
+- Jakie będą minimalne wymagania dotyczące jakości wygenerowanych fiszek?
+- Jakie dane będą zbierane podczas procesu akceptacji/odrzucania fiszek?
+</unresolved_issues>
+</conversation_summary>
