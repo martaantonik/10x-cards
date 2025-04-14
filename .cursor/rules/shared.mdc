@@ -3,9 +3,9 @@ description:
 globs: 
 alwaysApply: true
 ---
-# AI Rules for {app-name}
+# AI Rules for 10x-cards
 
-{project-description}
+10x Cards to aplikacja webowa umożliwiająca szybkie tworzenie fiszek edukacyjnych z wykorzystaniem sztucznej inteligencji. Głównym celem aplikacji jest przyspieszenie procesu tworzenia fiszek poprzez automatyczne generowanie ich z wprowadzonego tekstu. Aplikacja skierowana jest do indywidualnych użytkowników, głównie studentów, którzy chcą efektywnie uczyć się z wykorzystaniem metody powtórek (spaced repetition).
 
 ## Tech Stack
 
